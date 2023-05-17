@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+       <div id="end" class="flex-center flex-column">
+        
+        <h1 id="finalScore">Your Final Score: </h1>
+        <hr>
+    <form class="end-form-container">
+       <h2 id="end-text">Enter Name Below:</h2>
+       <input type="text" name="name" id="textbox" placeholder="Enter Name:">
+       <a id="save" href="leaderboard.html" target="_blank">Save</a>
+
+       
+     
+    </form>
+        <a href="game.html" class="btn" id="playAgain"> Play Again</a>
+        <a href="index.html" class="btn"id="home"> Home</a>
+
+        <style> 
+          #playAgain{
+            position: relative; top: 25px; left: 135px;
+            width: 100%;
+          }
+          #home{
+          position: relative; top:25px; left: 135px;
+          }
+          .footerLine{
+          position: relative; top: 275px; 
+          }
+      </style>
+        </div>
+        <hr class="footerLine">
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
+</html>

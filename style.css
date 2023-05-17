@@ -1,0 +1,153 @@
+
+
+.container{
+   
+    margin: 0;
+    padding: 0 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+
+.box{
+    width: 500px;
+    height: 535px;
+    margin: 0;
+    background-color: white;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.box h1{
+    width: 90%;
+    margin-left: 25px;
+    font-size: 40px;
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+
+.btn{
+    color: black;
+    width: 95%;
+    text-align: left;
+    background-color: lightskyblue;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px ;
+    padding: 12px;
+    position: relative; top: 125px; left: 110px;
+    
+    
+    
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+.btn:hover{
+    cursor: pointer;
+    background-color:aqua ;
+}
+
+.btn:active{
+    font-weight: bolder;
+}
+
+#line{
+    position: relative; top: 381px;
+}
+
+#end-text{
+    display: flex;
+    justify-content: center;
+}
+
+#textbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+
+  
+}
+
+#btn{
+    display: flex;
+    color: black;
+    text-align: left;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    position: relative; top: -23px; left: 335px;
+  
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color:aqua ;
+}
+
+#btn:active{
+    font-weight: bolder;
+}
+
+
+
+.HSbox{
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 88%;
+    height: 150px;
+    position: relative;left :30px;
+
+}
+
+#highScoreListScore{
+    position: relative;left :200px; top:-140px;
+ 
+    
+}
+h2{
+    position: relative;left :30px;
+}
+
+ol{
+    margin-top: 5px;
+    font-size:110%
+}
+
+#end-text{
+    position: relative;left :0px;
+}
+
+#save{
+    color: black;
+    width: 95%;
+    text-align: left;
+    background-color: lightskyblue;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 7px 0px 10px 10px ;
+    padding: 5px;
+    position: relative; top: -23px; left: 325px
+    
+}
+
+#save:hover{
+    cursor: pointer;
+    background-color:aqua ;
+}
+
+#save:active{
+    font-weight: bolder;
+}
+
