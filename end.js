@@ -3,7 +3,7 @@ var tmp = {}
 var finaleScore = localStorage.score
 
 var username =document.getElementById("textbox");
-var button =document.getElementById("btn");
+var button =document.getElementById("save");
 var displayScore =document.getElementById("score");
 
 document.getElementById("finalScore").innerHTML = "Final Score: " + localStorage.score * 20 + "%";
