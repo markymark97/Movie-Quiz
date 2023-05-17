@@ -1,25 +1,33 @@
+var name1 ="No data"
+var name2 ="No data"
+var name3 ="No data"
+
+var score1 = '';
+var score2 = '';
+var score3 = '';
+
 var tmp0 =localStorage.getItem('myArray');   
 var tmp =JSON.parse(tmp0)
 var name1 = getMax(tmp)
 
 //Calc scores and order
 if (name1 != "No data") {
-  var score1 = tmp[name1]
+   score1 = tmp[name1]
 
  
 
  delete tmp[name1]
- var name2 = getMax(tmp)
+  name2 = getMax(tmp)
 
  if (name2 != "No data") {
-   var score2 = tmp[name2]
+    score2 = tmp[name2]
   
 
    delete tmp[name2]
-   var name3 = getMax(tmp)
+    name3 = getMax(tmp)
  
    if (name3 != "No data") {
-     var score3 = tmp[name3]
+      score3 = tmp[name3]
     
      
    }
